@@ -2,11 +2,11 @@
 #include <PubSubClient.h>
 
 
-const char* ssid = "Maestro";      
-const char* password = "Mwbsc@2023"; 
+const char* ssid = "username";      
+const char* password = "password"; 
 
 const char* mqtt_server = "broker.emqx.io"; 
-const char* mqtt_topic = "maestro_qwerty23456"; 
+const char* mqtt_topic = "mae_qwerty23456"; 
 
 
 const int relayPins[3] = {23, 22, 21}; 
